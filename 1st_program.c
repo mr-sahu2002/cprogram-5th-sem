@@ -85,9 +85,9 @@ int partition(int a[],int low,int u)
         //swap the element palce if the condition is true (refer to algorith from 'puntabekar book')
         if(i<j)
         {
-        temp=a[i];
-        a[i]=a[j];
-        a[j]=temp;
+            temp=a[i];
+            a[i]=a[j];
+            a[j]=temp;
         }
     }
     while(i<j);
